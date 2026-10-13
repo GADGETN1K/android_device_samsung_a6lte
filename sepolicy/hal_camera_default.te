@@ -1,0 +1,2 @@
+# /sys/class/camera/flash/rear_torch_flash
+allow hal_camera_default sysfs_virtual:file w_file_perms;
