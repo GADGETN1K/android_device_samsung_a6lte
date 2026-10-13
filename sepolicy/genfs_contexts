@@ -1,0 +1,1 @@
+genfscon debugfs /mali    u:object_r:debugfs_mali:s0
