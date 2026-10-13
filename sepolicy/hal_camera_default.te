@@ -2,3 +2,5 @@
 allow hal_camera_default sysfs_virtual:file w_file_perms;
 typeattribute hal_camera_default binder_in_vendor_violators;
 binder_call(hal_camera_default, system_server)
+# HandleImporter needs IMapper to import preview buffers (green preview / crash on close otherwise)
+allow hal_camera_default hal_graphics_mapper_hwservice:hwservice_manager find;
