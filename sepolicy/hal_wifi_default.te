@@ -1,2 +1,2 @@
 # /sys/module/dhd/parameters/firmware_path (STA/AP firmware switch)
-allow hal_wifi_default sysfs_wifi:file w_file_perms;
+allow hal_wifi_default sysfs_wifi_writable:file w_file_perms;

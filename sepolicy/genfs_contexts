@@ -1,1 +1,2 @@
 genfscon debugfs /mali    u:object_r:debugfs_mali:s0
+genfscon sysfs /module/dhd/parameters/firmware_path    u:object_r:sysfs_wifi_writable:s0
