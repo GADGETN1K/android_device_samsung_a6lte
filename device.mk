@@ -98,8 +98,7 @@ PRODUCT_PACKAGES += \
     libnfc_nci_jni \
     NfcNci \
     Tag \
-    com.android.nfc_extras \
-    android.hardware.nfc@1.2-service.samsung
+    com.android.nfc_extras
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \

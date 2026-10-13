@@ -103,3 +103,6 @@ WIFI_BAND                        := 802_11_ABG
 
 # inherit from the proprietary version
 -include vendor/samsung/a6lte/BoardConfigVendor.mk
+
+# SELinux (device)
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy

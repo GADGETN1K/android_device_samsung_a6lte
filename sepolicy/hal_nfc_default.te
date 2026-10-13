@@ -1,0 +1,5 @@
+add_hwservice(hal_nfc_default, hal_nfc_sehnfc_hwservice)
+allow hal_nfc_default nfc_device:chr_file rw_file_perms;
+allow hal_nfc_default mnt_vendor_file:dir search;
+allow hal_nfc_default efs_file:dir rw_dir_perms;
+allow hal_nfc_default efs_file:file create_file_perms;
