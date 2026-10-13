@@ -1,1 +1,2 @@
 type debugfs_mali, fs_type, debugfs_type;
+type debugfs_ion_exynos, fs_type, debugfs_type;

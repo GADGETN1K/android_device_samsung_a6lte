@@ -1,3 +1,5 @@
 # /sys/kernel/debug/mali/mem/*/mem_profile
 allow hal_memtrack_default debugfs_mali:dir r_dir_perms;
 allow hal_memtrack_default debugfs_mali:file r_file_perms;
+allow hal_memtrack_default debugfs_ion_exynos:dir r_dir_perms;
+allow hal_memtrack_default debugfs_ion_exynos:file r_file_perms;

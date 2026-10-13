@@ -1,0 +1,6 @@
+dontaudit domain mediaserver_exec:file { read open getattr };
+dontaudit domain same_process_hal_file:file { read getattr };
+dontaudit domain debugfs_mali:dir search;
+dontaudit crash_dump exported_camera_prop:file { open getattr };
+dontaudit priv_app sysfs_virtual:file read;
+dontaudit vold sysfs_virtual:file write;

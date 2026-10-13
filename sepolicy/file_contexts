@@ -3,3 +3,4 @@
 /dev/t-base-tui                  u:object_r:tee_device:s0
 /(vendor|system/vendor)/lib(64)?/hw/gralloc\.exynos7870\.so    u:object_r:same_process_hal_file:s0
 /(vendor|system/vendor)/lib(64)?/libion_exynos\.so    u:object_r:same_process_hal_file:s0
+/dev/gnss_ipc    u:object_r:gps_device:s0
